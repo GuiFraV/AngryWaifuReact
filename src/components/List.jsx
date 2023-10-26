@@ -37,10 +37,6 @@ function List() {
     getData();
   }, []);  // Dépendances vides signifient que cela s'exécutera une fois au montage du composant.
 
-  useEffect(() => {
-    console.log(waifu);
-  }, [waifu]);
-
   return (
     <div>
       <p>List</p>
