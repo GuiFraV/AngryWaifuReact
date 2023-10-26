@@ -11,7 +11,7 @@ function List() {
     async function getData() {
       try {
         const url = 'https://waifu.it/api/angry';
-        const apiToken = process.env.REACT_APP_API_TOKEN;
+        const apiToken = import.meta.env.VITE_REACT_API_KEY;
         const res = await fetch(url, {
           method: 'GET',
           headers: {
