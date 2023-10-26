@@ -44,7 +44,7 @@ function List() {
   return (
     <div>
       <p>List</p>
-      <Characters />
+      <Characters src={waifu.url} />
     </div>
   );
 }
